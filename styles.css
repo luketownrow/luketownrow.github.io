@@ -19,6 +19,10 @@
   --lavender: #7d7898;
 
   --focus: #6f5aa8;
+
+  --max-width: 1120px;
+  --radius: 22px;
+  --shadow: 0 16px 40px rgba(24, 50, 58, 0.08);
 }
 
 /* Base */
