@@ -243,16 +243,16 @@ p {
 
 .portrait {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center top;
 
-  border-radius: 50%;
+  border-radius: 24px;
 
-  border: 6px solid #ffffff;
+  border: 4px solid #ffffff;
 
   box-shadow:
-    0 16px 40px rgba(24, 50, 58, 0.12);
+    0 18px 45px rgba(24, 50, 58, 0.14);
 
   position: relative;
   z-index: 2;
