@@ -3,26 +3,22 @@
    Adjust these variables first.
 --------------------------------- */
 :root {
-  --bg: #fffaf0;
+  --bg: #f7f6f2;
   --surface: #ffffff;
-  --surface-tint: #edf7f5;
+  --surface-tint: #e8f0ec;
 
-  --text: #18323a;
-  --muted: #52666c;
-  --border: #cddfdb;
+  --text: #24323d;
+  --muted: #5f6b73;
+  --border: #cfd8d3;
 
-  --primary: #146b69;
-  --primary-dark: #0e4f4e;
+  --primary: #4f7f78;
+  --primary-dark: #365f5a;
 
-  --coral: #d9695f;
-  --gold: #d7a93f;
-  --lavender: #8474a1;
+  --coral: #c9785c;
+  --gold: #d2aa5f;
+  --lavender: #7d7898;
 
-  --focus: #7b2cbf;
-
-  --max-width: 1120px;
-  --radius: 22px;
-  --shadow: 0 16px 40px rgba(24, 50, 58, 0.08);
+  --focus: #6f5aa8;
 }
 
 /* Base */
