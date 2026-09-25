@@ -3,16 +3,16 @@
    Adjust these variables first.
 --------------------------------- */
 :root {
-  --bg: #f7f6f2;
+  --bg: #F6F4EC;
   --surface: #ffffff;
-  --surface-tint: #e8f0ec;
+  --surface-tint: #E4EBE5;
 
-  --text: #24323d;
-  --muted: #5f6b73;
+  --text: #22352A;
+  --muted: #627066;
   --border: #cfd8d3;
 
-  --primary: #4f7f78;
-  --primary-dark: #365f5a;
+  --primary: #3F6A52;
+  --primary-dark: #2C4B3A;
 
   --coral: #c9785c;
   --gold: #d2aa5f;
