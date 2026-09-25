@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Personal website for Your Name — researcher, scholar, and professional."
+  />
+  <title>Your Name | Personal Website</title>
+
+  <!-- Readability-focused font. Falls back gracefully if unavailable. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="site-name" href="#top">Your Name</a>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation menu"
+      >
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#values">Important to Me</a>
+        <a href="#publications">Publications</a>
+        <a href="#press">Press</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Researcher · Scholar · Professional</p>
+          <h1>Your Name</h1>
+          <p class="hero-title">
+            Your title, role, department, or professional identity goes here.
+          </p>
+          <p class="hero-intro">
+            Write one or two sentences that introduce your work and what you care
+            about. Keep this welcoming, clear, and understandable outside your field.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore my work</a>
+            <a class="button button-secondary" href="#contact">Contact me</a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap">
+          <img
+            class="portrait"
+            src="assets/profile-placeholder.svg"
+            alt="Portrait of Your Name"
+          />
+          <div class="portrait-accent" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>About me</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Introduce yourself here. You might describe your current position,
+            background, education, areas of expertise, and the big questions that
+            motivate your work.
+          </p>
+          <p>
+            This is also a good place to give visitors a sense of who you are
+            beyond a CV: what shaped your perspective, how you approach your work,
+            or what kind of collaborator or mentor you try to be.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-tint">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <h2>What I study</h2>
+        <p class="section-lead">
+          A short overview of your research agenda, current projects, or core
+          intellectual interests.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Research area or project</h3>
+            <p>
+              Explain the question, why it matters, and what you are trying to learn.
+            </p>
+            <a href="#" aria-label="Learn more about research area one">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Research area or project</h3>
+            <p>
+              Use this card for another project, method, collaboration, or theme.
+            </p>
+            <a href="#" aria-label="Learn more about research area two">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Research area or project</h3>
+            <p>
+              You can add or remove cards depending on how much work you want to feature.
+            </p>
+            <a href="#" aria-label="Learn more about research area three">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="values" class="section">
+      <div class="container">
+        <p class="section-kicker">Important to me</p>
+        <h2>Values, communities, and commitments</h2>
+        <p class="section-lead">
+          This section can highlight the principles or causes that shape your work
+          and your life.
+        </p>
+
+        <div class="values-grid">
+          <article class="value-item">
+            <div class="value-dot value-dot-one" aria-hidden="true"></div>
+            <div>
+              <h3>Value or commitment</h3>
+              <p>Briefly explain why this matters to you and how it shows up in your work.</p>
+            </div>
+          </article>
+
+          <article class="value-item">
+            <div class="value-dot value-dot-two" aria-hidden="true"></div>
+            <div>
+              <h3>Community or cause</h3>
+              <p>Highlight outreach, mentoring, teaching, advocacy, or service.</p>
+            </div>
+          </article>
+
+          <article class="value-item">
+            <div class="value-dot value-dot-three" aria-hidden="true"></div>
+            <div>
+              <h3>Approach or principle</h3>
+              <p>Describe a principle that guides how you collaborate or communicate.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-tint">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Publications</p>
+            <h2>Selected publications</h2>
+          </div>
+          <a class="text-link" href="#">View full CV →</a>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication">
+            <p class="publication-year">2026</p>
+            <div>
+              <h3>Title of publication goes here</h3>
+              <p>Your Name, Coauthor Name, Coauthor Name</p>
+              <p class="publication-meta"><em>Journal or venue name</em> · Volume(Issue) · Pages</p>
+              <div class="publication-links">
+                <a href="#">Paper</a>
+                <a href="#">DOI</a>
+                <a href="#">Code/Data</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2025</p>
+            <div>
+              <h3>Another publication title</h3>
+              <p>Your Name, Coauthor Name</p>
+              <p class="publication-meta"><em>Journal or venue name</em></p>
+              <div class="publication-links">
+                <a href="#">Paper</a>
+                <a href="#">DOI</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2024</p>
+            <div>
+              <h3>A third selected publication</h3>
+              <p>Your Name</p>
+              <p class="publication-meta"><em>Journal, book, or proceedings title</em></p>
+              <div class="publication-links">
+                <a href="#">Paper</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="press" class="section">
+      <div class="container">
+        <p class="section-kicker">Press</p>
+        <h2>Press and public engagement</h2>
+
+        <div class="press-grid">
+          <article class="press-card">
+            <p class="press-source">Publication or outlet</p>
+            <h3>Headline or feature title</h3>
+            <p class="press-date">Month Day, Year</p>
+            <a href="#">Read the story →</a>
+          </article>
+
+          <article class="press-card">
+            <p class="press-source">Podcast, radio, or news outlet</p>
+            <h3>Interview or segment title</h3>
+            <p class="press-date">Month Day, Year</p>
+            <a href="#">Listen or watch →</a>
+          </article>
+
+          <article class="press-card">
+            <p class="press-source">Publication or organization</p>
+            <h3>Commentary, profile, or feature title</h3>
+            <p class="press-date">Month Day, Year</p>
+            <a href="#">View feature →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s connect</h2>
+          <p class="section-lead">
+            Add a short note about the kinds of inquiries you welcome: research
+            collaborations, speaking invitations, student questions, media requests,
+            or other professional opportunities.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <p><strong>Email</strong><br><a href="mailto:you@example.com">you@example.com</a></p>
+          <p><strong>Institution</strong><br>Your institution or organization</p>
+          <p><strong>Location</strong><br>City, State / Country</p>
+
+          <div class="social-links" aria-label="Professional profiles">
+            <a href="#">Google Scholar</a>
+            <a href="#">ORCID</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Your Name</p>
+      <p>Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".site-nav");
+
+    toggle.addEventListener("click", () => {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!expanded));
+      nav.classList.toggle("is-open");
+    });
+
+    document.querySelectorAll(".site-nav a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
