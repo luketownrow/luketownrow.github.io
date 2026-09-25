@@ -243,13 +243,19 @@ p {
 
 .portrait {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 45% 45% 38% 38% / 42% 42% 34% 34%;
-  box-shadow: var(--shadow);
+  object-position: center top;
+
+  border-radius: 50%;
+
+  border: 6px solid #ffffff;
+
+  box-shadow:
+    0 16px 40px rgba(24, 50, 58, 0.12);
+
   position: relative;
   z-index: 2;
-  background: var(--surface-tint);
 }
 
 .portrait-accent {
