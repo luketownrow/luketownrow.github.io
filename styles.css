@@ -93,7 +93,7 @@ p {
 }
 
 .container {
-  width: min(calc(100% - 2rem), var(--max-width));
+  width: min(calc(100% - 4rem), var(--max-width));
   margin-inline: auto;
 }
 
