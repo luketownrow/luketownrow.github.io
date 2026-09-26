@@ -310,6 +310,18 @@ p {
   margin-top: 2.5rem;
 }
 
+.card {
+  padding: 1.25rem;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
 .card,
 .press-card,
 .contact-card {
